@@ -1,0 +1,119 @@
+15:16:39.333 INFO unitManager          CI Unit: *+NSN+
+15:16:39.339 INFO unitManager          CI Unit: *+SPN+
+15:16:39.340 INFO unitManager          CI Unit: AA
+15:16:39.340 INFO unitManager          CI Unit: AE
+15:16:39.341 INFO unitManager          CI Unit: AH
+15:16:39.342 INFO unitManager          CI Unit: AO
+15:16:39.342 INFO unitManager          CI Unit: AW
+15:16:39.343 INFO unitManager          CI Unit: AY
+15:16:39.343 INFO unitManager          CI Unit: B
+15:16:39.344 INFO unitManager          CI Unit: CH
+15:16:39.344 INFO unitManager          CI Unit: D
+15:16:39.345 INFO unitManager          CI Unit: DH
+15:16:39.346 INFO unitManager          CI Unit: EH
+15:16:39.346 INFO unitManager          CI Unit: ER
+15:16:39.346 INFO unitManager          CI Unit: EY
+15:16:39.347 INFO unitManager          CI Unit: F
+15:16:39.347 INFO unitManager          CI Unit: G
+15:16:39.348 INFO unitManager          CI Unit: HH
+15:16:39.348 INFO unitManager          CI Unit: IH
+15:16:39.349 INFO unitManager          CI Unit: IY
+15:16:39.349 INFO unitManager          CI Unit: JH
+15:16:39.350 INFO unitManager          CI Unit: K
+15:16:39.350 INFO unitManager          CI Unit: L
+15:16:39.350 INFO unitManager          CI Unit: M
+15:16:39.351 INFO unitManager          CI Unit: N
+15:16:39.351 INFO unitManager          CI Unit: NG
+15:16:39.352 INFO unitManager          CI Unit: OW
+15:16:39.352 INFO unitManager          CI Unit: OY
+15:16:39.352 INFO unitManager          CI Unit: P
+15:16:39.353 INFO unitManager          CI Unit: R
+15:16:39.353 INFO unitManager          CI Unit: S
+15:16:39.353 INFO unitManager          CI Unit: SH
+15:16:39.354 INFO unitManager          CI Unit: T
+15:16:39.354 INFO unitManager          CI Unit: TH
+15:16:39.354 INFO unitManager          CI Unit: UH
+15:16:39.355 INFO unitManager          CI Unit: UW
+15:16:39.355 INFO unitManager          CI Unit: V
+15:16:39.355 INFO unitManager          CI Unit: W
+15:16:39.356 INFO unitManager          CI Unit: Y
+15:16:39.356 INFO unitManager          CI Unit: Z
+15:16:39.356 INFO unitManager          CI Unit: ZH
+15:16:41.750 INFO autoCepstrum         Cepstrum component auto-configured as follows: autoCepstrum {MelFrequencyFilterBank, Denoise, DiscreteCosineTransform2, Lifter}
+15:16:41.865 INFO dictionary           Loading dictionary from: file:src/main/resources/VoiceAssistantSources/Options.dic
+15:16:41.867 INFO dictionary           Loading filler dictionary from: file:lib/en-us/en-us/noisedict
+15:16:41.868 INFO acousticModelLoader  Loading tied-state acoustic model from: file:lib/en-us/en-us
+15:16:41.869 INFO acousticModelLoader  Pool means Entries: 16128
+15:16:41.870 INFO acousticModelLoader  Pool variances Entries: 16128
+15:16:41.870 INFO acousticModelLoader  Pool transition_matrices Entries: 42
+15:16:41.871 INFO acousticModelLoader  Pool senones Entries: 5126
+15:16:41.871 INFO acousticModelLoader  Gaussian weights: mixture_weights. Entries: 15378
+15:16:41.871 INFO acousticModelLoader  Pool senones Entries: 5126
+15:16:41.871 INFO acousticModelLoader  Context Independent Unit Entries: 42
+15:16:41.872 INFO acousticModelLoader  HMM Manager: 137095 hmms
+15:16:41.872 INFO acousticModel        CompositeSenoneSequences: 0
+15:16:42.971 INFO lexTreeLinguist      Max CI Units 43
+15:16:42.971 INFO lexTreeLinguist      Unit table size 79507
+15:16:42.977 INFO speedTracker         # ----------------------------- Timers----------------------------------------
+15:16:42.978 INFO speedTracker         # Name               Count   CurTime   MinTime   MaxTime   AvgTime   TotTime   
+15:16:42.979 INFO speedTracker         Compile              1       1.0920s   1.0920s   1.0920s   1.0920s   1.0920s   
+15:16:42.979 INFO speedTracker         Load Dictionary      1       0.0030s   0.0030s   0.0030s   0.0030s   0.0030s   
+15:16:42.980 INFO speedTracker         Load AM              1       4.5520s   4.5520s   4.5520s   4.5520s   4.5520s   
+15:16:50.536 INFO speedTracker            This  Time Audio: 0.47s  Proc: 0.44s  Speed: 0.93 X real time
+15:16:50.537 INFO speedTracker            Total Time Audio: 0.47s  Proc: 0.44s 0.93 X real time
+15:16:50.538 INFO memoryTracker           Mem  Total: 407.00 Mb  Free: 262.81 Mb
+15:16:50.539 INFO memoryTracker           Used: This: 144.19 Mb  Avg: 144.19 Mb  Max: 144.19 Mb
+15:16:50.554 INFO speedTracker         # ----------------------------- Timers----------------------------------------
+15:16:50.554 INFO speedTracker         # Name               Count   CurTime   MinTime   MaxTime   AvgTime   TotTime   
+15:16:50.555 INFO speedTracker         Compile              1       1.0920s   1.0920s   1.0920s   1.0920s   1.0920s   
+15:16:50.556 INFO speedTracker         Frontend             67      0.0000s   0.0000s   7.1130s   0.1062s   7.1170s   
+15:16:50.556 INFO speedTracker         Load Dictionary      1       0.0030s   0.0030s   0.0030s   0.0030s   0.0030s   
+15:16:50.557 INFO speedTracker         Score                130     0.0000s   0.0000s   7.1150s   0.0568s   7.3800s   
+15:16:50.558 INFO speedTracker         Prune                453     0.0000s   0.0000s   0.0010s   0.0000s   0.0010s   
+15:16:50.559 INFO speedTracker         Grow                 455     0.0000s   0.0000s   0.0040s   0.0003s   0.1510s   
+15:16:50.559 INFO speedTracker         Load AM              1       4.5520s   4.5520s   4.5520s   4.5520s   4.5520s   
+15:16:50.560 INFO speedTracker            Total Time Audio: 0.47s  Proc: 0.44s 0.93 X real time
+15:16:50.560 INFO memoryTracker           Mem  Total: 407.00 Mb  Free: 262.41 Mb
+15:16:50.561 INFO memoryTracker           Used: This: 144.59 Mb  Avg: 144.39 Mb  Max: 144.59 Mb
+15:18:39.287 INFO dictionary           Loading dictionary from: file:src/main/resources/VoiceAssistantSources/Options.dic
+15:18:39.288 INFO dictionary           Loading filler dictionary from: file:lib/en-us/en-us/noisedict
+15:18:40.079 INFO lexTreeLinguist      Max CI Units 43
+15:18:40.080 INFO lexTreeLinguist      Unit table size 79507
+15:18:40.080 INFO speedTracker         # ----------------------------- Timers----------------------------------------
+15:18:40.081 INFO speedTracker         # Name               Count   CurTime   MinTime   MaxTime   AvgTime   TotTime   
+15:18:40.081 INFO speedTracker         Compile              2       0.7830s   0.7830s   1.0920s   0.9375s   1.8750s   
+15:18:40.082 INFO speedTracker         Frontend             67      0.0000s   0.0000s   7.1130s   0.1062s   7.1170s   
+15:18:40.083 INFO speedTracker         Load Dictionary      2       0.0020s   0.0020s   0.0030s   0.0025s   0.0050s   
+15:18:40.084 INFO speedTracker         Score                130     0.0000s   0.0000s   7.1150s   0.0568s   7.3800s   
+15:18:40.085 INFO speedTracker         Prune                453     0.0000s   0.0000s   0.0010s   0.0000s   0.0010s   
+15:18:40.086 INFO speedTracker         Grow                 455     0.0000s   0.0000s   0.0040s   0.0003s   0.1510s   
+15:18:40.086 INFO speedTracker         Load AM              1       4.5520s   4.5520s   4.5520s   4.5520s   4.5520s   
+15:18:46.026 INFO speedTracker            This  Time Audio: 0.50s  Proc: 0.53s  Speed: 1.07 X real time
+15:18:46.028 INFO speedTracker            Total Time Audio: 0.97s  Proc: 0.97s 1.00 X real time
+15:18:46.028 INFO memoryTracker           Mem  Total: 407.00 Mb  Free: 145.89 Mb
+15:18:46.028 INFO memoryTracker           Used: This: 261.11 Mb  Avg: 183.29 Mb  Max: 261.11 Mb
+15:18:46.031 INFO speedTracker         # ----------------------------- Timers----------------------------------------
+15:18:46.031 INFO speedTracker         # Name               Count   CurTime   MinTime   MaxTime   AvgTime   TotTime   
+15:18:46.032 INFO speedTracker         Compile              2       0.7830s   0.7830s   1.0920s   0.9375s   1.8750s   
+15:18:46.032 INFO speedTracker         Frontend             139     0.0000s   0.0000s   7.1130s   0.0912s   12.6810s  
+15:18:46.033 INFO speedTracker         Load Dictionary      2       0.0020s   0.0020s   0.0030s   0.0025s   0.0050s   
+15:18:46.034 INFO speedTracker         Score                272     0.0000s   0.0000s   7.1150s   0.0484s   13.1680s  
+15:18:46.035 INFO speedTracker         Prune                948     0.0000s   0.0000s   0.0010s   0.0000s   0.0010s   
+15:18:46.036 INFO speedTracker         Grow                 952     0.0000s   0.0000s   0.0040s   0.0003s   0.2750s   
+15:18:46.037 INFO speedTracker         Load AM              1       4.5520s   4.5520s   4.5520s   4.5520s   4.5520s   
+15:18:46.038 INFO speedTracker            Total Time Audio: 0.97s  Proc: 0.97s 1.00 X real time
+15:18:46.038 INFO memoryTracker           Mem  Total: 407.00 Mb  Free: 145.89 Mb
+15:18:46.039 INFO memoryTracker           Used: This: 261.11 Mb  Avg: 202.75 Mb  Max: 261.11 Mb
+15:18:48.090 INFO dictionary           Loading dictionary from: file:src/main/resources/VoiceAssistantSources/Options.dic
+15:18:48.091 INFO dictionary           Loading filler dictionary from: file:lib/en-us/en-us/noisedict
+15:18:48.972 INFO lexTreeLinguist      Max CI Units 43
+15:18:48.973 INFO lexTreeLinguist      Unit table size 79507
+15:18:48.973 INFO speedTracker         # ----------------------------- Timers----------------------------------------
+15:18:48.973 INFO speedTracker         # Name               Count   CurTime   MinTime   MaxTime   AvgTime   TotTime   
+15:18:48.974 INFO speedTracker         Compile              3       0.8730s   0.7830s   1.0920s   0.9160s   2.7480s   
+15:18:48.974 INFO speedTracker         Frontend             139     0.0000s   0.0000s   7.1130s   0.0912s   12.6810s  
+15:18:48.975 INFO speedTracker         Load Dictionary      3       0.0030s   0.0020s   0.0030s   0.0027s   0.0080s   
+15:18:48.975 INFO speedTracker         Score                272     0.0000s   0.0000s   7.1150s   0.0484s   13.1680s  
+15:18:48.976 INFO speedTracker         Prune                948     0.0000s   0.0000s   0.0010s   0.0000s   0.0010s   
+15:18:48.976 INFO speedTracker         Grow                 952     0.0000s   0.0000s   0.0040s   0.0003s   0.2750s   
+15:18:48.977 INFO speedTracker         Load AM              1       4.5520s   4.5520s   4.5520s   4.5520s   4.5520s   

@@ -1,0 +1,169 @@
+#img1{
+    -fx-background-color: linear-gradient(to right top, #3088ff, #478efb, #5894f6, #679af2, #75a0ed, #6eabf2, #6ab5f6, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-size:cover;
+    -fx-background-radius: 0 30 0 30;
+
+}
+#an2{
+    -fx-background-color: rgb(255, 248, 248);
+    -fx-effect: dropshadow(three-pass-box, rgb(65, 65, 65), 30, 0.2, 0, 0);
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-size:cover;
+    -fx-background-radius: 30 30 30 30;
+
+
+}
+#an3{
+    -fx-background-color: linear-gradient(to right top, #3088ff, #478efb, #5894f6, #679af2, #75a0ed, #6eabf2, #6ab5f6, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    -fx-background-radius: 30 0 0 30;
+}
+#btn1{
+    -fx-background-color: rgb(54, 121, 245);
+    -fx-background-radius: 12 12 12 12;
+}
+#text {
+    -fx-background-color: #f0f0f0; /* Background color */
+    -fx-border-color: black; /* Border color */
+    -fx-border-width: 1px;
+    -fx-border-radius: 12 12 12 12;
+    -fx-padding: 5px;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20 20 20 20;
+}
+
+#text:focused {
+    -fx-border-color: #4d90fe; /* Border color when focused */
+}
+#pass {
+    -fx-background-color: #f0f0f0; /* Background color */
+    -fx-border-color: black; /* Border color */
+    -fx-border-width: 1px;
+    -fx-border-radius: 12 12 12 12;
+    -fx-padding: 5px;
+    -fx-font-size: 17px;
+    -fx-background-radius: 20 20 20 20;
+}
+
+#pass:focused {
+    -fx-border-color: #4d90fe; /* Border color when focused */
+}
+
+#scene2{
+    -fx-background-image:url("scene2.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-size: stretch;
+    -fx-background-radius: 0 30 0 30;
+}
+#an3{
+    -fx-effect: dropshadow(three-pass-box, rgb(131, 131, 131), 30, 0.2, 0, 0);
+    -fx-background-radius: 0 30 30 0;
+    -fx-min-height: 100%;
+    -fx-padding: 1cm 0;
+}
+#InScene{
+    -fx-background-color: linear-gradient(to right top, #3088ff, #478efb, #5894f6, #679af2, #75a0ed, #6eabf2, #6ab5f6, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    -fx-effect: dropshadow(three-pass-box, rgb(196, 192, 192), 30, 0.2, 0, 0);
+    -fx-background-radius: 30 30 30 30;
+}
+#Dis{
+    -fx-background-radius: 35 35 35 35;
+}
+#balancepane{
+    -fx-effect: dropshadow(three-pass-box, rgb(143, 143, 143), 30, 0.2, 0, 0);
+    -fx-background-radius: 30 30 30 30;
+}
+#Withdraw
+{
+    -fx-effect: dropshadow(three-pass-box, rgb(143, 143, 143), 30, 0.2, 0, 0);
+    -fx-background-radius: 30 30 30 30;
+}
+#WithorDraw {
+    -fx-border-width: 1.5px;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15px;
+    -fx-transition: -fx-border-color 0.3s ease;
+    -fx-effect: dropshadow(three-pass-box, rgb(131, 131, 131), 10, 0.2, 0, 0);
+    -fx-background-color: #f8f9fa;
+    -fx-text-fill: #333;
+}
+
+#WithorDraw:hover {
+    -fx-border-color: #2980b9;
+}
+
+#WithorDraw:focused {
+    -fx-outline: none;
+    -fx-border-color: #3498db;
+    /*-fx-box-shadow: 0 0 10px rgba(46, 204, 113, 0.5);*/
+}
+
+#WithorDraw::placeholder {
+    -fx-text-fill: #aaa;
+}
+#PayStatus
+{
+    -fx-effect: dropshadow(three-pass-box, rgb(143, 143, 143), 30, 0.2, 0, 0);
+    -fx-background-radius: 30 30 30 30;
+}
+#FastCash
+{
+    -fx-effect: dropshadow(three-pass-box, rgb(143, 143, 143), 30, 0.2, 0, 0);
+    -fx-background-radius: 30 30 30 30;
+}
+#Pinchange
+{
+    -fx-effect: dropshadow(three-pass-box, rgb(143, 143, 143), 30, 0.2, 0, 0);
+    -fx-background-radius: 30 30 30 30;
+}
+#AccountNum {
+    -fx-border-width: 1.5px;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15px;
+    -fx-transition: -fx-border-color 0.3s ease;
+    -fx-effect: dropshadow(three-pass-box, rgb(131, 131, 131), 10, 0.2, 0, 0);
+    -fx-background-color: #f8f9fa;
+    -fx-text-fill: #333;
+}
+
+#AccountNum:hover {
+    -fx-border-color: #2980b9;
+}
+
+#AccountNum:focused {
+    -fx-outline: none;
+    -fx-border-color: #3498db;
+    /*-fx-box-shadow: 0 0 10px rgba(46, 204, 113, 0.5);*/
+}
+
+#AccountNum::placeholder {
+    -fx-text-fill: #aaa;
+}
+#Pinchange {
+    -fx-border-width: 1.5px;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15px;
+    -fx-transition: -fx-border-color 0.3s ease;
+    -fx-effect: dropshadow(three-pass-box, rgb(131, 131, 131), 10, 0.2, 0, 0);
+    -fx-background-color: #f8f9fa;
+    -fx-text-fill: #333;
+}
+
+#Pinchange:hover {
+    -fx-border-color: #2980b9;
+}
+
+#Pinchange:focused {
+    -fx-outline: none;
+    -fx-border-color: #3498db;
+    /*-fx-box-shadow: 0 0 10px rgba(46, 204, 113, 0.5);?*/
+}
+#Pinchange::placeholder {
+    -fx-text-fill: #aaa;
+}
+
+

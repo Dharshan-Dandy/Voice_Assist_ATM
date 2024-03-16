@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: sphinx4-data
+Implementation-Version: 1.0.0
+Specification-Vendor: de.sciss
+Specification-Title: sphinx4-data
+Implementation-Vendor-Id: de.sciss
+Specification-Version: 1.0.0
+Implementation-URL: http://cmusphinx.sourceforge.net/
+Implementation-Vendor: de.sciss
+

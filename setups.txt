@@ -1,0 +1,42 @@
+Connnect the database - Refer - ~/Desktop/inner_soliloquy/db_connectivity_postgres.txt --- in the older os
+
+
+DB config:
+    Database Name : bank
+    Databse Owner : bank_admin
+    Database Password : naigayrt
+
+    Setups:
+        create user bank_admin with password 'tryagain';
+        create database bank owner bank_admin;
+
+
+
+Tables Names:
+    account_details:
+        Schema_creation : create table account_details (acct_no int, holder_name varchar(30), acct_type varchar(10), amount int);
+        Constraints :  alter table account_details ADD CONSTRAINT primary_key_account_no PRIMARY KEY (acct_no);
+
+    atm_card_details:
+        Schema creation : create table atm_card_details (card_no int, acct_no int, atm_pin varchar(10));
+        Constraints : alter table atm_card_details add constraint primary_key_card_no PRIMARY KEY (card_no);
+                      alter table atm_card_details add constraint foreign_key_acct_no FOREIGN KEY (acct_no) REFERENCES account_details(acct_no);
+
+
+
+Note:
+    password is encrypted : ([::-1])
+
+Usage:
+    com.bank.atm.security.Encrypt
+        To encrypt or modified the pin for atm card.
+
+Setups:
+    JavaFx :
+        ~/.m2/repository/org/openjfx
+        In this path consists of the needed javafx jar files and can yo import by help of project structure -> libraries -> + . add this needed jar files.
+
+    *sql* :
+        Add the library for database connectivity
+
+
